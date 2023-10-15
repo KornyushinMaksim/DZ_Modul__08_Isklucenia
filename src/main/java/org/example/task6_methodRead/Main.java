@@ -28,11 +28,9 @@ public class Main {
             try {
                 xml.read();
             } catch (FileAlreadyExistsException e){
-                try {
-                    throw new FileNotFoundException();
-                } catch (FileNotFoundException f){
-                    System.out.println(f.getMessage());
-                }
+                System.out.println(1);
+                System.out.println(e.getMessage());
+                System.out.println(e.getCause().getMessage());
             } catch (IOException i){
                 System.out.println(i.getMessage());
             }

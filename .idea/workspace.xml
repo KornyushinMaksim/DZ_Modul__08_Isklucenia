@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4259d2c-56f7-4184-838e-4a776f86d306" name="Changes" comment="task4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task5_methodHalt/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task5_methodHalt/method/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/method/MyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/method/XmlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/task2_incomingNumber/method/SetNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/task3_triangle/triangle/TriangleTest.java" afterDir="false" />
+    <list default="true" id="b4259d2c-56f7-4184-838e-4a776f86d306" name="Changes" comment="all_finish&#10;task6_notCompleted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/method/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task6_methodRead/method/XmlReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <recent name="org.example.task2_incomingNumber.method" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest">
+  <component name="RunManager" selected="Application.org.example.task6_methodRead.Main">
     <configuration name="org.example.task4_binarySearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.task4_binarySearch.Main" />
       <module name="DZ_Modul__08_Isklucenia" />
@@ -131,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.task6_methodRead.Main" />
         <item itemvalue="JUnit.TriangleTest" />
         <item itemvalue="JUnit.SetNumberTest" />
-        <item itemvalue="Application.org.example.task6_methodRead.Main" />
         <item itemvalue="Application.org.example.task5_methodHalt.Main" />
         <item itemvalue="Application.org.example.task4_binarySearch.Main" />
       </list>
@@ -162,13 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697234733258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all_finish&#10;task6_notCompleted">
+      <created>1697361282319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697361282319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="task1,task2,task3" />
     <MESSAGE value="task4" />
-    <option name="LAST_COMMIT_MESSAGE" value="task4" />
+    <MESSAGE value="all_finish&#10;task6_notCompleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="all_finish&#10;task6_notCompleted" />
   </component>
 </project>

@@ -2,6 +2,7 @@ package org.example.task6_methodRead.method;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.FileSystemAlreadyExistsException;
 import java.util.Arrays;
 import java.util.Random;
@@ -11,7 +12,7 @@ public class XmlReader {
     private static final Random rnd = new Random();
 
     public void read () throws IOException {
-        switch (rnd.nextInt(3)){
+        switch (rnd.nextInt(4)){
             case 1:
                 throw new NullPointerException("case1");
             case 2:
@@ -19,7 +20,9 @@ public class XmlReader {
             case 3:
                 throw new FileNotFoundException("case3");
             default:
-                throw new FileSystemAlreadyExistsException("default");
+                FileSystemAlreadyExistsException e = new FileSystemAlreadyExistsException("default");
+                e.initCause(new FileNotFoundException("redirection"));
+                throw e;
         }
     }
 }
